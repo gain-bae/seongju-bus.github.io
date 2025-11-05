@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>노선표</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container" id="app">
+    <header>
+      <button id="back">← 뒤로</button>
+      <h1 id="title">노선</h1>
+      <div id="qr-wrap"></div>
+    </header>
+
+    <section id="stops-section">
+      <h2 id="stops-title">정류장</h2>
+      <ol id="stops"></ol>
+    </section>
+
+    <section id="timetable-section">
+      <h2>운행 시각표</h2>
+      <div id="timetable" class="grid"></div>
+    </section>
+
+    <section id="notes-section">
+      <p id="notes"></p>
+    </section>
+
+  </main>
+
+<script>
+async function load() {
+  const params = new URLSearchParams(location.search);
+  const routeId = params.get('route') || '1';
+  const lang = params.get('lang') || 'ko';
+
+  const res = await fetch('routes.json');
+  const json = await res.json();
+  const route = json.routes.find(r => r.id === routeId);
+  if (!route) {
+    document.getElementById('stops').innerHTML = '<li>노선 정보를 찾을 수 없습니다.</li>';
+    return;
+  }
+
+  const title = (route.title && route.title[lang]) || route.title.ko || '노선';
+  document.getElementById('title').innerText = title;
+
+  const stops = (route.stops && route.stops[lang]) || route.stops.ko;
+  const ol = document.getElementById('stops');
+  ol.innerHTML = '';
+  stops.forEach(s => {
+    const li = document.createElement('li');
+    li.innerText = s;
+    ol.appendChild(li);
+  });
+
+  const tt = route.timetable || [];
+  const grid = document.getElementById('timetable');
+  grid.innerHTML = '';
+  tt.forEach(time => {
+    const d = document.createElement('div');
+    d.className = 'timecell';
+    d.innerText = time;
+    grid.appendChild(d);
+  });
+
+  const notesText = (route.notes && (route.notes[lang] || route.notes.ko)) || '';
+  document.getElementById('notes').innerText = notesText;
+
+  const fullUrl = location.origin + location.pathname + '?route=' + encodeURIComponent(routeId) + '&lang=' + encodeURIComponent(lang);
+  const qrImg = document.createElement('img');
+  qrImg.src = 'https://chart.googleapis.com/chart?cht=qr&chs=300x300&chl=' + encodeURIComponent(fullUrl);
+  qrImg.alt = 'QR for ' + title;
+  qrImg.width = 200;
+  document.getElementById('qr-wrap').innerHTML = '';
+  document.getElementById('qr-wrap').appendChild(qrImg);
+
+  document.getElementById('back').addEventListener('click', () => history.back());
+}
+
+load();
+</script>
+</body>
+</html>
