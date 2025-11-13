@@ -2,39 +2,133 @@
   "routes": [
     {
       "id": "1",
-      "title": {"ko": "순환1번"},
-      "stops": {
-        "ko": ["임시버스정류장", "성주시장입구", "신성·청구아파트", "보건소", "우방아파트", "성주군청", "성산5리", "문화예술회관", "건강문화캠퍼스", "이마트", "성주군청", "임시버스정류장"]
+      "title": {
+        "ko": "순환 1번",
+        "en": "Circular Route 1",
+        "zh": "环线1路",
+        "vi": "Tuyến vòng 1",
+        "th": "สายวงกลม 1",
+        "tl": "Ruta Sirkular 1",
+        "km": "ផ្លូវជុំ 1"
       },
-      "timetable": ["06:40", "07:20", "08:00", "08:40", "09:20", "10:00", "10:40", "11:20", "12:00", "12:40", "13:20", "14:00", "14:40", "15:20", "16:00", "16:40", "17:20", "18:00", "18:40", "19:20", "20:00"],
-      "notes": {"ko": "평일 40분 / 주말 50분 간격 운행"}
+      "stops": {
+        "ko": ["임시버스정류장","성주시장입구","신성·청구아파트","보건소","우방아파트","스위트엠아파트","실리안아파트","건강밥상","우방아파트","명가타운","성주군청","맘스터치","새마을금고","별고을교육원","성산5리","문화예술회관","삼산1리","성산5리공용주차장","대명식당","종합사회복지관","성산5리공용주차장","건강문화캠퍼스","이마트","농협중앙회","성주군청","명가타운","보건소","성밖숲","성주시장입구","임시버스정류장"],
+        "en": ["Temporary Stop","Seongju Market Entrance","Shinseong·Cheonggu Apartment","Health Center","Woobang Apartment","Suite M Apartment","Sillian Apartment","Healthy Table","Woobang Apartment","Myungga Town","Seongju County Office","Mom's Touch","Saemaeul Credit Union","Byeolgoeul Training Center","Seongsan 5-ri","Cultural & Art Center","Samsan 1-ri","Seongsan 5-ri Parking Lot","Daemyeong Restaurant","Comprehensive Welfare Center","Seongsan 5-ri Parking Lot","Health Culture Campus","E-Mart","Nonghyup Headquarters","Seongju County Office","Myungga Town","Health Center","Seongbak Forest","Seongju Market Entrance","Temporary Stop"],
+        "zh": ["临时巴士站","星州市场入口","新成·清丘公寓","保健所","宇邦公寓","甜蜜M公寓","西利安公寓","健康餐桌","宇邦公寓","名家镇","星州郡厅","Mom’s Touch","新村金库","别村培训院","星山5里","文化艺术会馆","三山1里","星山5里公共停车场","大明餐厅","综合社会福利馆","星山5里公共停车场","健康文化校园","易买得","农协中央会","星州郡厅","名家镇","保健所","城外林","星州市场入口","临时巴士站"],
+        "vi": ["Điểm dừng tạm thời","Lối vào chợ Seongju","Căn hộ Shinseong·Cheonggu","Trạm y tế","Căn hộ Woobang","Căn hộ Suite M","Căn hộ Sillian","Bàn Ăn Khỏe","Căn hộ Woobang","Khu Myungga","Văn phòng Quận Seongju","Mom's Touch","Ngân hàng Saemaeul","Trung tâm Đào tạo Byeolgoeul","Làng Seongsan 5-ri","Trung tâm Văn hóa Nghệ thuật","Làng Samsan 1-ri","Bãi đỗ xe công cộng Seongsan 5-ri","Nhà hàng Daemyeong","Trung tâm Phúc lợi Tổng hợp","Bãi đỗ xe công cộng Seongsan 5-ri","Khuôn viên Văn hóa Sức khỏe","E-Mart","Trụ sở Nonghyup","Văn phòng Quận Seongju","Khu Myungga","Trạm y tế","Rừng Seongbak","Lối vào chợ Seongju","Điểm dừng tạm thời"],
+        "th": ["ป้ายรถเมล์ชั่วคราว","ทางเข้าตลาดซองจู","อพาร์ตเมนต์ชินซอง·ชองกู","ศูนย์สุขภาพ","อพาร์ตเมนต์อูบัง","อพาร์ตเมนต์สวีทเอ็ม","อพาร์ตเมนต์ซิลเลียน","ร้านอาหารสุขภาพ","อพาร์ตเมนต์อูบัง","หมู่บ้านมยองกา","สำนักงานเทศบาลซองจู","Mom's Touch","สหกรณ์การเงิน Saemaeul","ศูนย์ฝึกอบรม Byeolgoeul","หมู่บ้านซองซาน 5-ri","ศูนย์ศิลปวัฒนธรรม","หมู่บ้านซัมซาน 1-ri","ลานจอดรถสาธารณะซองซาน 5-ri","ร้านอาหารแดมยอง","ศูนย์สวัสดิการสังคม","ลานจอดรถสาธารณะซองซาน 5-ri","วิทยาเขตวัฒนธรรมสุขภาพ","อีมาร์ต","สำนักงานใหญ่ Nonghyup","สำนักงานเทศบาลซองจู","หมู่บ้านมยองกา","ศูนย์สุขภาพ","ป่าซองบัก","ทางเข้าตลาดซองจู","ป้ายรถเมล์ชั่วคราว"],
+        "tl": ["Hintuan","Pasukan ng Pamilihan ng Seongju","Shinseong·Cheonggu Apartment","Sentro ng Kalusugan","Woobang Apartment","Suite M Apartment","Sillian Apartment","Malusog na Mesa","Woobang Apartment","Myungga Town","Tanggapan ng Lalawigan ng Seongju","Mom's Touch","Saemaeul Credit Union","Byeolgoeul Training Center","Seongsan 5-ri","Sentro ng Sining at Kultura","Samsan 1-ri","Paradahan ng Seongsan 5-ri","Daemyeong Restaurant","Komprehensibong Sentro ng Kapakanan","Paradahan ng Seongsan 5-ri","Kampus ng Kulturang Pangkalusugan","E-Mart","Pangunahing Tanggapan ng Nonghyup","Tanggapan ng Lalawigan ng Seongju","Myungga Town","Sentro ng Kalusugan","Seongbak Forest","Pasukan ng Pamilihan ng Seongju","Hintuan"],
+        "km": ["ចំណតរថយន្តក្រុងបណ្តោះអាសន្ន","ច្រកចូលផ្សារ Seongju","អាផាតមិន Shinseong·Cheonggu","មណ្ឌលសុខភាព","អាផាតមិន Woobang","អាផាតមិន Suite M","អាផាតមិន Sillian","តុអាហារសុខភាព","អាផាតមិន Woobang","សង្កាត់ Myungga","ការិយាល័យស្រុក Seongju","Mom's Touch","សហគមន៍ឥណទាន Saemaeul","មជ្ឈមណ្ឌលបណ្តុះបណ្តាល Byeolgoeul","ភូមិ Seongsan 5-ri","មជ្ឈមណ្ឌលវប្បធម៌និងសិល្បៈ","ភូមិ Samsan 1-ri","ចំណតរថយន្តសាធារណៈ Seongsan 5-ri","ភោជនីយដ្ឋាន Daemyeong","មជ្ឈមណ្ឌលសុខុមាលភាពសង្គមសរុប","ចំណតរថយន្តសាធារណៈ Seongsan 5-ri","វិទ្យាស្ថានវប្បធម៌សុខភាព","អ៊ីម៉ាត","ការិយាល័យកណ្តាល Nonghyup","ការិយាល័យស្រុក Seongju","សង្កាត់ Myungga","មណ្ឌលសុខភាព","ព្រៃ Seongbak","ច្រកចូលផ្សារ Seongju","ចំណតរថយន្តក្រុងបណ្តោះអាសន្ន"]
+      },
+      "interval": "40분",
+      "weekday": ["07:20","08:00","08:40","09:20","10:00","10:40","11:20","12:00","12:40","13:20","14:00","14:40","15:20","16:00","16:40","17:20","18:00","18:40","19:20","20:00"],
+      "weekend": ["08:10","08:50","09:30","10:10","10:50","11:30","12:10","12:50","13:30","14:10","14:50","15:30","16:10","16:50","17:30","18:10"],
+      "notes": {
+        "ko": "배차 40분, 평일 20회·주말 18회 운행. 문화예술회관 행사 시 연장 운행.",
+        "en": "Every 40 minutes, 20 runs on weekdays, 18 on weekends. Extended service during events at the Cultural & Art Center.",
+        "zh": "每40分钟一班，工作日20班，周末18班。文化艺术会馆活动时加开班次。",
+        "vi": "Cách 40 phút một chuyến, 20 chuyến ngày thường, 18 chuyến cuối tuần. Tăng chuyến khi có sự kiện tại Trung tâm Văn hóa Nghệ thuật.",
+        "th": "ทุก 40 นาที วันธรรมดา 20 เที่ยว สุดสัปดาห์ 18 เที่ยว ขยายเวลาเดินรถเมื่อมีงานที่ศูนย์ศิลปวัฒนธรรม",
+        "tl": "Bawat 40 minuto, 20 biyahe sa mga araw ng trabaho, 18 sa katapusan ng linggo. Pinalawak kapag may kaganapan sa Cultural & Art Center.",
+        "km": "រាល់ 40 នាទី មាន 20 ដំណើរការនៅថ្ងៃធ្វើការ និង 18 ដំណើរការនៅចុងសប្តាហ៍ បន្ថែមពេលបើកបរ នៅពេលមានព្រឹត្តិការណ៍នៅមជ្ឈមណ្ឌលវប្បធម៌និងសិល្បៈ។"
+      }
     },
-    {
+        {
       "id": "2",
-      "title": {"ko": "순환2번"},
-      "stops": {
-        "ko": ["임시버스정류장", "성주시장입구", "보건소", "성주초등학교", "성주고등학교", "성주1산단", "법원", "건강문화캠퍼스", "이마트", "삼부쇼핑", "임시버스정류장"]
+      "title": {
+        "ko": "순환 2번",
+        "en": "Circular Route 2",
+        "zh": "环线2路",
+        "vi": "Tuyến vòng 2",
+        "th": "สายวงกลม 2",
+        "tl": "Ruta Sirkular 2",
+        "km": "ផ្លូវជុំ 2"
       },
-      "timetable": ["07:00", "07:40", "08:20", "09:00", "09:40", "10:20", "11:00", "11:40", "12:20", "13:00", "13:40", "14:20", "15:00", "15:40", "16:20", "17:00", "17:40", "18:20", "19:00", "19:40"],
-      "notes": {"ko": "평일 40분 / 주말 50분 간격 운행"}
+      "stops": {
+        "ko": ["임시버스정류장","성주시장입구","신성·청구아파트","보건소","명가타운","성주군청","맘스터치","창의문화센터","성주초등학교","성주농협","예산삼거리","성주고등학교","금산2리","성주2산단(혁신지원센터)","성주1산단","산단입구","삼산2리","지역자활센터","법원","건강문화캠퍼스","이마트","정성제통의원","창의문화센터","삼부쇼핑","임시버스정류장"],
+        "en": ["Temporary Stop","Seongju Market Entrance","Shinseong·Cheonggu Apartment","Health Center","Myungga Town","Seongju County Office","Mom's Touch","Creative Culture Center","Seongju Elementary School","Seongju Agricultural Cooperative","Yesan Intersection","Seongju High School","Geumsan 2-ri","Seongju 2nd Industrial Complex (Innovation Support Center)","Seongju 1st Industrial Complex","Industrial Entrance","Samsan 2-ri","Community Rehabilitation Center","Court","Health Culture Campus","E-Mart","Jeongseongje Clinic","Creative Culture Center","Sambu Shopping","Temporary Stop"],
+        "zh": ["临时巴士站","星州市场入口","新成·清丘公寓","保健所","名家镇","星州郡厅","Mom’s Touch","创意文化中心","星州小学","星州农协","礼山三叉路口","星州高中","金山2里","星州第2产业园区(创新支援中心)","星州第1产业园区","产业园入口","三山2里","地区自立中心","法院","健康文化校园","易买得","正成济诊所","创意文化中心","三富购物中心","临时巴士站"],
+        "vi": ["Điểm dừng tạm thời","Lối vào chợ Seongju","Căn hộ Shinseong·Cheonggu","Trạm y tế","Khu Myungga","Văn phòng Quận Seongju","Mom's Touch","Trung tâm Văn hóa Sáng tạo","Trường Tiểu học Seongju","Hợp tác xã Nông nghiệp Seongju","Ngã ba Yesan","Trường Trung học Seongju","Làng Geumsan 2-ri","Khu công nghiệp Seongju 2 (Trung tâm Hỗ trợ Đổi mới)","Khu công nghiệp Seongju 1","Cổng khu công nghiệp","Làng Samsan 2-ri","Trung tâm phục hồi cộng đồng","Tòa án","Khuôn viên Văn hóa Sức khỏe","E-Mart","Phòng khám Jeongseongje","Trung tâm Văn hóa Sáng tạo","Trung tâm mua sắm Sambu","Điểm dừng tạm thời"],
+        "th": ["ป้ายรถเมล์ชั่วคราว","ทางเข้าตลาดซองจู","อพาร์ตเมนต์ชินซอง·ชองกู","ศูนย์สุขภาพ","หมู่บ้านมยองกา","สำนักงานเทศบาลซองจู","Mom's Touch","ศูนย์วัฒนธรรมสร้างสรรค์","โรงเรียนประถมซองจู","สหกรณ์การเกษตรซองจู","ทางแยกเยซาน","โรงเรียนมัธยมซองจู","หมู่บ้านกึมซาน 2-ri","นิคมอุตสาหกรรมที่ 2 ซองจู (ศูนย์สนับสนุนนวัตกรรม)","นิคมอุตสาหกรรมที่ 1 ซองจู","ทางเข้านิคม","หมู่บ้านซัมซาน 2-ri","ศูนย์ฟื้นฟูชุมชน","ศาล","วิทยาเขตวัฒนธรรมสุขภาพ","อีมาร์ต","คลินิก Jeongseongje","ศูนย์วัฒนธรรมสร้างสรรค์","ศูนย์การค้า Sambu","ป้ายรถเมล์ชั่วคราว"],
+        "tl": ["Hintuan","Pasukan ng Pamilihan ng Seongju","Shinseong·Cheonggu Apartment","Sentro ng Kalusugan","Myungga Town","Tanggapan ng Lalawigan ng Seongju","Mom's Touch","Sentro ng Kulturang Malikhain","Paaralang Elementarya ng Seongju","Kooperatiba ng Agrikultura ng Seongju","Sangandaan ng Yesan","Mataas na Paaralan ng Seongju","Nayon ng Geumsan 2-ri","Ikalawang Pook-Pangindustriya ng Seongju (Sentro ng Suporta sa Inobasyon)","Unang Pook-Pangindustriya ng Seongju","Pasukan ng Industriya","Samsan 2-ri","Sentro ng Rehabilitasyon ng Komunidad","Hukuman","Kampus ng Kulturang Pangkalusugan","E-Mart","Klinika ni Jeongseongje","Sentro ng Kulturang Malikhain","Pamimili sa Sambu","Hintuan"],
+        "km": ["ចំណតរថយន្តក្រុងបណ្តោះអាសន្ន","ច្រកចូលផ្សារ Seongju","អាផាតមិន Shinseong·Cheonggu","មណ្ឌលសុខភាព","សង្កាត់ Myungga","ការិយាល័យស្រុក Seongju","Mom's Touch","មជ្ឈមណ្ឌលវប្បធម៌ច្នៃប្រឌិត","សាលាបឋមសិក្សា Seongju","សហគមន៍កសិកម្ម Seongju","ច្រកប្រសព្វ Yesan","វិទ្យាល័យ Seongju","ភូមិ Geumsan 2-ri","តំបន់ឧស្សាហកម្មទី 2 Seongju (មជ្ឈមណ្ឌលគាំទ្រការច្នៃប្រឌិត)","តំបន់ឧស្សាហកម្មទី 1 Seongju","ច្រកចូលតំបន់ឧស្សាហកម្ម","ភូមិ Samsan 2-ri","មជ្ឈមណ្ឌលស្តារឡើងវិញសហគមន៍","តុលាការ","វិទ្យាស្ថានវប្បធម៌សុខភាព","អ៊ីម៉ាត","គ្លីនិក Jeongseongje","មជ្ឈមណ្ឌលវប្បធម៌ច្នៃប្រឌិត","ផ្សារ Sambu","ចំណតរថយន្តក្រុងបណ្តោះអាសន្ន"]
+      },
+      "interval": "50분",
+      "weekday": ["07:10","08:00","08:50","09:40","10:30","11:20","12:10","13:00","13:50","14:40","15:30","16:20","17:10","18:00","18:50","19:40"],
+      "weekend": ["08:10","09:00","09:50","10:40","11:30","12:20","13:10","14:00","14:50","15:40","16:30","17:20","18:10","19:00"],
+      "notes": {
+        "ko": "배차 50분, 평일 16회·주말 14회 운행.",
+        "en": "Every 50 minutes, 16 runs on weekdays, 14 on weekends.",
+        "zh": "每50分钟一班，工作日16班，周末14班。",
+        "vi": "Cách 50 phút một chuyến, 16 chuyến ngày thường, 14 chuyến cuối tuần.",
+        "th": "ทุก 50 นาที วันธรรมดา 16 เที่ยว สุดสัปดาห์ 14 เที่ยว",
+        "tl": "Bawat 50 minuto, 16 biyahe sa mga araw ng trabaho, 14 sa katapusan ng linggo.",
+        "km": "រាល់ 50 នាទី មាន 16 ដំណើរការនៅថ្ងៃធ្វើការ និង 14 ដំណើរការនៅចុងសប្តាហ៍។"
+      }
     },
-    {
+        {
       "id": "3",
-      "title": {"ko": "순환3번"},
-      "stops": {
-        "ko": ["임시버스정류장", "성주시장입구", "보건소", "군청별관", "역사테마공원", "별고을교육원", "성산5리공용주차장", "건강문화캠퍼스", "이마트", "임시버스정류장"]
+      "title": {
+        "ko": "순환 3번",
+        "en": "Circular Route 3",
+        "zh": "环线3路",
+        "vi": "Tuyến vòng 3",
+        "th": "สายวงกลม 3",
+        "tl": "Ruta Sirkular 3",
+        "km": "ផ្លូវជុំ 3"
       },
-      "timetable": ["07:10", "07:55", "08:40", "09:25", "10:10", "10:55", "11:40", "12:25", "13:10", "13:55", "14:40", "15:25", "16:10", "16:55", "17:40", "18:25", "19:10", "19:55", "20:40"],
-      "notes": {"ko": "평일 40분 / 주말 55분 간격 운행"}
+      "stops": {
+        "ko": ["임시버스정류장","성주시장입구","신성·청구아파트","보건소","우방아파트","놀벤져스","군청별관","군민회관맞은편","역사테마공원","실리안아파트","예산삼거리","CU편의점","군민회관","맘스터치","새마을금고","별고을교육원","종합사회복지관","성산5리공용주차장","건강문화캠퍼스","이마트","정성제통의원","창의문화센터","삼부쇼핑","임시버스정류장"],
+        "en": ["Temporary Stop","Seongju Market Entrance","Shinseong·Cheonggu Apartment","Health Center","Woobang Apartment","Nol Vengers","Annex of County Office","Opposite of Community Hall","History Theme Park","Sillian Apartment","Yesan Intersection","CU Convenience Store","Community Hall","Mom's Touch","Saemaeul Credit Union","Byeolgoeul Training Center","Comprehensive Welfare Center","Seongsan 5-ri Parking Lot","Health Culture Campus","E-Mart","Jeongseongje Clinic","Creative Culture Center","Sambu Shopping","Temporary Stop"],
+        "zh": ["临时巴士站","星州市场入口","新成·清丘公寓","保健所","宇邦公寓","Nol Vengers","郡厅别馆","郡民会馆对面","历史主题公园","西利安公寓","礼山三叉路口","CU便利店","郡民会馆","Mom’s Touch","新村金库","别村培训院","综合社会福利馆","星山5里公共停车场","健康文化校园","易买得","正成济诊所","创意文化中心","三富购物中心","临时巴士站"],
+        "vi": ["Điểm dừng tạm thời","Lối vào chợ Seongju","Căn hộ Shinseong·Cheonggu","Trạm y tế","Căn hộ Woobang","Nol Vengers","Tòa phụ Văn phòng Quận","Đối diện Nhà văn hóa cộng đồng","Công viên chủ đề Lịch sử","Căn hộ Sillian","Ngã ba Yesan","Cửa hàng tiện lợi CU","Nhà văn hóa cộng đồng","Mom's Touch","Ngân hàng Saemaeul","Trung tâm Đào tạo Byeolgoeul","Trung tâm Phúc lợi Tổng hợp","Bãi đỗ xe Seongsan 5-ri","Khuôn viên Văn hóa Sức khỏe","E-Mart","Phòng khám Jeongseongje","Trung tâm Văn hóa Sáng tạo","Trung tâm mua sắm Sambu","Điểm dừng tạm thời"],
+        "th": ["ป้ายรถเมล์ชั่วคราว","ทางเข้าตลาดซองจู","อพาร์ตเมนต์ชินซอง·ชองกู","ศูนย์สุขภาพ","อพาร์ตเมนต์อูบัง","Nol Vengers","อาคารเสริมของสำนักงานเทศบาล","ตรงข้ามหอประชุมชุมชน","สวนประวัติศาสตร์","อพาร์ตเมนต์ซิลเลียน","ทางแยกเยซาน","ร้านสะดวกซื้อ CU","หอประชุมชุมชน","Mom's Touch","สหกรณ์การเงิน Saemaeul","ศูนย์ฝึกอบรม Byeolgoeul","ศูนย์สวัสดิการสังคม","ลานจอดรถ Seongsan 5-ri","วิทยาเขตวัฒนธรรมสุขภาพ","อีมาร์ต","คลินิก Jeongseongje","ศูนย์วัฒนธรรมสร้างสรรค์","ศูนย์การค้า Sambu","ป้ายรถเมล์ชั่วคราว"],
+        "tl": ["Hintuan","Pasukan ng Pamilihan ng Seongju","Shinseong·Cheonggu Apartment","Sentro ng Kalusugan","Woobang Apartment","Nol Vengers","Annex ng Tanggapan ng Lalawigan","Tapat ng Community Hall","History Theme Park","Sillian Apartment","Sangandaan ng Yesan","CU Convenience Store","Community Hall","Mom's Touch","Saemaeul Credit Union","Byeolgoeul Training Center","Komprehensibong Sentro ng Kapakanan","Paradahan ng Seongsan 5-ri","Kampus ng Kulturang Pangkalusugan","E-Mart","Klinika ni Jeongseongje","Sentro ng Kulturang Malikhain","Pamimili sa Sambu","Hintuan"],
+        "km": ["ចំណតរថយន្តក្រុងបណ្តោះអាសន្ន","ច្រកចូលផ្សារ Seongju","អាផាតមិន Shinseong·Cheonggu","មណ្ឌលសុខភាព","អាផាតមិន Woobang","Nol Vengers","អគារបន្ថែមនៃការិយាល័យស្រុក","ជាប់នឹងសាលាសហគមន៍","សួនប្រវត្តិសាស្ត្រ","អាផាតមិន Sillian","ច្រកប្រសព្វ Yesan","ហាងទំនើប CU","សាលាសហគមន៍","Mom's Touch","សហគមន៍ឥណទាន Saemaeul","មជ្ឈមណ្ឌលបណ្តុះបណ្តាល Byeolgoeul","មជ្ឈមណ្ឌលសុខុមាលភាពសង្គមសរុប","ចំណតរថយន្ត Seongsan 5-ri","វិទ្យាស្ថានវប្បធម៌សុខភាព","អ៊ីម៉ាត","គ្លីនិក Jeongseongje","មជ្ឈមណ្ឌលវប្បធម៌ច្នៃប្រឌិត","ផ្សារ Sambu","ចំណតរថយន្តក្រុងបណ្តោះអាសន្ន"]
+      },
+      "interval": "40분",
+      "weekday": ["07:10","07:50","08:30","09:10","09:50","10:30","11:10","11:50","12:30","13:10","13:50","14:30","15:10","15:50","16:30","17:10","17:50","18:30","19:10","19:50","20:30"],
+      "weekend": ["08:30","09:10","09:50","10:30","11:10","11:50","12:30","13:10","13:50","14:30","15:10","15:50","16:30","17:10","17:50","18:30","19:10","19:50"],
+      "notes": {
+        "ko": "배차 40분, 평일 21회·주말 18회 운행.",
+        "en": "Every 40 minutes, 21 runs on weekdays, 18 on weekends.",
+        "zh": "每40分钟一班，工作日21班，周末18班。",
+        "vi": "Cách 40 phút một chuyến, 21 chuyến ngày thường, 18 chuyến cuối tuần.",
+        "th": "ทุก 40 นาที วันธรรมดา 21 เที่ยว สุดสัปดาห์ 18 เที่ยว",
+        "tl": "Bawat 40 minuto, 21 biyahe sa mga araw ng trabaho, 18 sa katapusan ng linggo.",
+        "km": "រាល់ 40 នាទី មាន 21 ដំណើរការនៅថ្ងៃធ្វើការ និង 18 ដំណើរការនៅចុងសប្តាហ៍។"
+      }
     },
-    {
-      "id": "4",
-      "title": {"ko": "순환4번"},
-      "stops": {
-        "ko": ["임시버스정류장", "성산3리", "성산동고분군", "건강문화캠퍼스", "수정2차아파트", "성주농협", "역사테마공원", "군청별관", "창의문화센터", "삼부쇼핑", "임시버스정류장"]
+        {
+      "id": "3",
+      "title": {
+        "ko": "순환 3번",
+        "en": "Circular Route 3",
+        "zh": "环线3路",
+        "vi": "Tuyến vòng 3",
+        "th": "สายวงกลม 3",
+        "tl": "Ruta Sirkular 3",
+        "km": "ផ្លូវជុំ 3"
       },
-      "timetable": ["07:30", "08:25", "09:20", "10:15", "11:10", "12:05", "13:00", "13:55", "14:50", "15:45", "16:40", "17:35", "18:30", "19:25", "20:20", "21:15"],
-      "notes": {"ko": "평일 55분 / 주말 55분 간격 운행"}
-    }
-  ]
-}
+      "stops": {
+        "ko": ["임시버스정류장","성주시장입구","신성·청구아파트","보건소","우방아파트","놀벤져스","군청별관","군민회관맞은편","역사테마공원","실리안아파트","예산삼거리","CU편의점","군민회관","맘스터치","새마을금고","별고을교육원","종합사회복지관","성산5리공용주차장","건강문화캠퍼스","이마트","정성제통의원","창의문화센터","삼부쇼핑","임시버스정류장"],
+        "en": ["Temporary Stop","Seongju Market Entrance","Shinseong·Cheonggu Apartment","Health Center","Woobang Apartment","Nol Vengers","Annex of County Office","Opposite of Community Hall","History Theme Park","Sillian Apartment","Yesan Intersection","CU Convenience Store","Community Hall","Mom's Touch","Saemaeul Credit Union","Byeolgoeul Training Center","Comprehensive Welfare Center","Seongsan 5-ri Parking Lot","Health Culture Campus","E-Mart","Jeongseongje Clinic","Creative Culture Center","Sambu Shopping","Temporary Stop"],
+        "zh": ["临时巴士站","星州市场入口","新成·清丘公寓","保健所","宇邦公寓","Nol Vengers","郡厅别馆","郡民会馆对面","历史主题公园","西利安公寓","礼山三叉路口","CU便利店","郡民会馆","Mom’s Touch","新村金库","别村培训院","综合社会福利馆","星山5里公共停车场","健康文化校园","易买得","正成济诊所","创意文化中心","三富购物中心","临时巴士站"],
+        "vi": ["Điểm dừng tạm thời","Lối vào chợ Seongju","Căn hộ Shinseong·Cheonggu","Trạm y tế","Căn hộ Woobang","Nol Vengers","Tòa phụ Văn phòng Quận","Đối diện Nhà văn hóa cộng đồng","Công viên chủ đề Lịch sử","Căn hộ Sillian","Ngã ba Yesan","Cửa hàng tiện lợi CU","Nhà văn hóa cộng đồng","Mom's Touch","Ngân hàng Saemaeul","Trung tâm Đào tạo Byeolgoeul","Trung tâm Phúc lợi Tổng hợp","Bãi đỗ xe Seongsan 5-ri","Khuôn viên Văn hóa Sức khỏe","E-Mart","Phòng khám Jeongseongje","Trung tâm Văn hóa Sáng tạo","Trung tâm mua sắm Sambu","Điểm dừng tạm thời"],
+        "th": ["ป้ายรถเมล์ชั่วคราว","ทางเข้าตลาดซองจู","อพาร์ตเมนต์ชินซอง·ชองกู","ศูนย์สุขภาพ","อพาร์ตเมนต์อูบัง","Nol Vengers","อาคารเสริมของสำนักงานเทศบาล","ตรงข้ามหอประชุมชุมชน","สวนประวัติศาสตร์","อพาร์ตเมนต์ซิลเลียน","ทางแยกเยซาน","ร้านสะดวกซื้อ CU","หอประชุมชุมชน","Mom's Touch","สหกรณ์การเงิน Saemaeul","ศูนย์ฝึกอบรม Byeolgoeul","ศูนย์สวัสดิการสังคม","ลานจอดรถ Seongsan 5-ri","วิทยาเขตวัฒนธรรมสุขภาพ","อีมาร์ต","คลินิก Jeongseongje","ศูนย์วัฒนธรรมสร้างสรรค์","ศูนย์การค้า Sambu","ป้ายรถเมล์ชั่วคราว"],
+        "tl": ["Hintuan","Pasukan ng Pamilihan ng Seongju","Shinseong·Cheonggu Apartment","Sentro ng Kalusugan","Woobang Apartment","Nol Vengers","Annex ng Tanggapan ng Lalawigan","Tapat ng Community Hall","History Theme Park","Sillian Apartment","Sangandaan ng Yesan","CU Convenience Store","Community Hall","Mom's Touch","Saemaeul Credit Union","Byeolgoeul Training Center","Komprehensibong Sentro ng Kapakanan","Paradahan ng Seongsan 5-ri","Kampus ng Kulturang Pangkalusugan","E-Mart","Klinika ni Jeongseongje","Sentro ng Kulturang Malikhain","Pamimili sa Sambu","Hintuan"],
+        "km": ["ចំណតរថយន្តក្រុងបណ្តោះអាសន្ន","ច្រកចូលផ្សារ Seongju","អាផាតមិន Shinseong·Cheonggu","មណ្ឌលសុខភាព","អាផាតមិន Woobang","Nol Vengers","អគារបន្ថែមនៃការិយាល័យស្រុក","ជាប់នឹងសាលាសហគមន៍","សួនប្រវត្តិសាស្ត្រ","អាផាតមិន Sillian","ច្រកប្រសព្វ Yesan","ហាងទំនើប CU","សាលាសហគមន៍","Mom's Touch","សហគមន៍ឥណទាន Saemaeul","មជ្ឈមណ្ឌលបណ្តុះបណ្តាល Byeolgoeul","មជ្ឈមណ្ឌលសុខុមាលភាពសង្គមសរុប","ចំណតរថយន្ត Seongsan 5-ri","វិទ្យាស្ថានវប្បធម៌សុខភាព","អ៊ីម៉ាត","គ្លីនិក Jeongseongje","មជ្ឈមណ្ឌលវប្បធម៌ច្នៃប្រឌិត","ផ្សារ Sambu","ចំណតរថយន្តក្រុងបណ្តោះអាសន្ន"]
+      },
+      "interval": "40분",
+      "weekday": ["07:10","07:50","08:30","09:10","09:50","10:30","11:10","11:50","12:30","13:10","13:50","14:30","15:10","15:50","16:30","17:10","17:50","18:30","19:10","19:50","20:30"],
+      "weekend": ["08:30","09:10","09:50","10:30","11:10","11:50","12:30","13:10","13:50","14:30","15:10","15:50","16:30","17:10","17:50","18:30","19:10","19:50"],
+      "notes": {
+        "ko": "배차 40분, 평일 21회·주말 18회 운행.",
+        "en": "Every 40 minutes, 21 runs on weekdays, 18 on weekends.",
+        "zh": "每40分钟一班，工作日21班，周末18班。",
+        "vi": "Cách 40 phút một chuyến, 21 chuyến ngày thường, 18 chuyến cuối tuần.",
+        "th": "ทุก 40 นาที วันธรรมดา 21 เที่ยว สุดสัปดาห์ 18 เที่ยว",
+        "tl": "Bawat 40 minuto, 21 biyahe sa mga araw ng trabaho, 18 sa katapusan ng linggo.",
+        "km": "រាល់ 40 នាទី មាន 21 ដំណើរការនៅថ្ងៃធ្វើការ និង 18 ដំណើរការនៅចុងសប្តាហ៍។"
+      }
+    },]}
