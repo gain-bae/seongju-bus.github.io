@@ -34,7 +34,7 @@
 async function load() {
   const params = new URLSearchParams(location.search);
   const routeId = params.get('route') || '1';
-  const lang = params.get('lang') || 'ko';
+  const lang = params.get('lang') || 'en';
 
   const res = await fetch('routes.json?v=' + Date.now());
   const json = await res.json();
