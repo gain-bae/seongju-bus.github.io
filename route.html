@@ -36,7 +36,7 @@ async function load() {
   const routeId = params.get('route') || '1';
   const lang = params.get('lang') || 'ko';
 
-  const res = await fetch('routes.json');
+  const res = await fetch('routes.json?v=' + Date.now());
   const json = await res.json();
   const route = json.routes.find(r => r.id === routeId);
   if (!route) {
